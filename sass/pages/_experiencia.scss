@@ -1,0 +1,25 @@
+@import '../base/variables';
+.experiencia {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el contenido en la parte superior */
+    margin: 20px;
+    
+    & h3 {
+        margin-top: 1px;
+    }
+    & p{
+        color: $color-gray;
+    }
+}
+
+.experiencia_imagen {
+    width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.experiencia_contenido {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos de texto uno debajo del otro */
+    justify-content: flex-start;  /* Permite que el contenido ocupe el resto del espacio */
+}

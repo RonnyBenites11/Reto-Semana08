@@ -1,0 +1,16 @@
+@import '../base/variables';
+.hobbies{
+    color: $color-gray;
+    margin-left: 15px;
+    & img{
+        width: 383px;
+        
+    }
+    & h3{
+        margin-top: 1px;
+        font-size: 18px;
+        color: $color-secundario;
+        
+        
+    }
+}

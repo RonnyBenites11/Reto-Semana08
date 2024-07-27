@@ -1,0 +1,27 @@
+ @import '../base/variables';
+ .imgprofile{
+    width: 366.99px;
+    height: 358.63px;
+    margin-top: 10px;
+    margin-left: 24px;
+    border-radius: 12px 0px 0px 0px;
+}
+ .contacto-profile{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    color: $color-secundario;
+    font-weight: 500;
+    
+}
+
+
+
+
+
+.texto-profile{
+    margin-left: 24px;
+    margin-right: 45px;
+    font-size: 18px;
+    color: $color-gray;
+    font-weight: 400;
+}
